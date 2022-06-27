@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220622233518">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220627152947">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -77,11 +77,11 @@
 						</div>
 						<div data-quantity class="events-filters__show">
 							<label class="events-filters__label">Show</label>
-							<!-- <div class="events-filters__show-input"> -->
-							<input data-quantity-value value="1" class="events-filters__field events-filters__field_num input" type="number">
-							<!-- <button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button> -->
-							<!-- <button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button> -->
-							<!-- </div> -->
+							<div class="events-filters__show-input">
+								<input data-quantity-value value="1" class="events-filters__field events-filters__field_num input" type="number">
+								<button data-quantity-plus type="button" class="quantity__button quantity__button_plus "></button>
+								<button data-quantity-minus type="button" class="quantity__button quantity__button_minus "></button>
+							</div>
 							<p class="events-filters__text">events per page</p>
 						</div>
 						<div class="events-filters__search">
@@ -314,7 +314,7 @@
 						</nav>
 						<div class="top-footer__subscribe subscribe-list">
 							<div class="subscribe-list__subgect">SIGN UP TO OUR NEWSLETTER</div>
-							<form action="" class="subscribe-list__form">
+							<form class="subscribe-list__form">
 								<input class="subscribe-list__email" type="email" placeholder="Email address" name="email">
 								<button type="submit" class="subscribe-list__btn _icon-arrow"></button>
 							</form>
@@ -349,6 +349,7 @@
 							<div class="login-form__item">
 								<label for="psw" class="login-form__label">Password</label>
 								<input id="psw" class="login-form__input input" type="password" placeholder="Your password">
+								<button type="button" onclick="myFunction()" class="login-form__show _icon-Union"></button>
 							</div>
 							<div class="login-form__checkbox checkbox">
 								<input id="c_1" data-error="Error" class="checkbox__input" type="checkbox" value="1" name="form[]">
@@ -398,6 +399,7 @@
 							<div class="login-form__item">
 								<label for="psw-r" class="login-form__label">Confirm Password</label>
 								<input id="psw-r" class="login-form__input input" type="password" placeholder="Repeat your password">
+								<button type="button" onclick="myFunction()" class="login-form__show _icon-Union"></button>
 							</div>
 							<div class="login-form__checkbox checkbox">
 								<input id="c_2" data-error="Error" class="checkbox__input " type="checkbox" value="2" name="form[]">
@@ -420,7 +422,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20220622233518"></script>
+	<script src="js/app.min.js?_v=20220627152947"></script>
 </body>
 
 </html>

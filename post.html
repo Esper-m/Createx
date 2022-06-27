@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220622233518">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220627152947">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -123,7 +123,7 @@
 						</form>
 						<div class="aside-block__author aside-author">
 							<h3 class="aside-block__category-title">Author</h3>
-							<article class="aside-author__item">
+							<div class="aside-author__item">
 								<div class="aside-author__img"><picture><source srcset="img/team/4-s.webp" type="image/webp"><img src="img/team/4-s.png" alt="author"></picture></div>
 								<div class="aside-author__content">
 									<p class="aside-author__name">Kristin Watson</p>
@@ -134,7 +134,7 @@
 										<li class="socials-post__item-social"><a href="#" class="socials-post__link-social _icon-in"></a></li>
 									</ul>
 								</div>
-							</article>
+							</div>
 						</div>
 						<div class="aside-block__other-post aside-other">
 							<h3 class="aside-block__category-title">Trending Articles</h3>
@@ -379,7 +379,7 @@
 						</nav>
 						<div class="top-footer__subscribe subscribe-list">
 							<div class="subscribe-list__subgect">SIGN UP TO OUR NEWSLETTER</div>
-							<form action="" class="subscribe-list__form">
+							<form class="subscribe-list__form">
 								<input class="subscribe-list__email" type="email" placeholder="Email address" name="email">
 								<button type="submit" class="subscribe-list__btn _icon-arrow"></button>
 							</form>
@@ -414,6 +414,7 @@
 							<div class="login-form__item">
 								<label for="psw" class="login-form__label">Password</label>
 								<input id="psw" class="login-form__input input" type="password" placeholder="Your password">
+								<button type="button" onclick="myFunction()" class="login-form__show _icon-Union"></button>
 							</div>
 							<div class="login-form__checkbox checkbox">
 								<input id="c_1" data-error="Error" class="checkbox__input" type="checkbox" value="1" name="form[]">
@@ -463,6 +464,7 @@
 							<div class="login-form__item">
 								<label for="psw-r" class="login-form__label">Confirm Password</label>
 								<input id="psw-r" class="login-form__input input" type="password" placeholder="Repeat your password">
+								<button type="button" onclick="myFunction()" class="login-form__show _icon-Union"></button>
 							</div>
 							<div class="login-form__checkbox checkbox">
 								<input id="c_2" data-error="Error" class="checkbox__input " type="checkbox" value="2" name="form[]">
@@ -485,7 +487,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20220622233518"></script>
+	<script src="js/app.min.js?_v=20220627152947"></script>
 </body>
 
 </html>

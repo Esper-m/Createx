@@ -702,7 +702,7 @@
                 classSelect: "select",
                 classSelectBody: "select__body",
                 classSelectTitle: "select__title",
-                classSelectValue: "select__value",
+                classSelectValue: "select__value _icon-arrow-down",
                 classSelectLabel: "select__label",
                 classSelectInput: "select__input",
                 classSelectText: "select__text",
